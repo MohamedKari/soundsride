@@ -1,0 +1,14 @@
+__pycache__
+log/
+demo/
+.venv/
+canvas.jpg
+
+tests/data/animals.mp3
+tests/data/drink-up-me-hearties.mp3
+tests/data/music.mp3
+tests/data/requiem-for-a-tower.mp3
+tests/data/river-flows-in-you.mp3
+tests/data/shot-me-down.mp3
+tests/data/tsunami.mp3
+tests/data/underground.mp3

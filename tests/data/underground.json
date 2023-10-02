@@ -1,0 +1,40 @@
+{
+    "bridge": {
+        "powerful": [
+            90000,
+            156000
+        ]
+    },
+    "calm": {
+        "long_crescendo": [
+            44000
+        ]
+    },
+    "halftime": {
+        "long_crescendo": [
+            197000
+        ]
+    },
+    "long_crescendo": {
+        "powerful": [
+            64000,
+            130000,
+            218000
+        ]
+    },
+    "powerful": {
+        "bridge": [
+            84000,
+            150000
+        ],
+        "halftime": [
+            173000
+        ],
+        "long_crescendo": [
+            110000
+        ],
+        "outro": [
+            258000
+        ]
+    }
+}

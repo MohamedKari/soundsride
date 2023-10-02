@@ -1,0 +1,13 @@
+0 calm
+44_000 long_crescendo
+64_000 powerful
+84_000 bridge
+90_000 powerful
+110_000 long_crescendo
+130_000 powerful
+150_000 bridge
+156_000 powerful
+173_000 halftime
+197_000 long_crescendo
+218_000 powerful
+258_000 outro

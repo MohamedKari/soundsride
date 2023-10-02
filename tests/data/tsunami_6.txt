@@ -1,0 +1,6 @@
+0_000 low_rise
+60_000 power_rise
+77_500 power
+122_500 low_rise
+154_000 power
+199_500 low

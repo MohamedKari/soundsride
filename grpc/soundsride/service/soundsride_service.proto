@@ -1,0 +1,44 @@
+syntax = "proto3";
+
+service SoundsRide {
+    rpc Ping (Empty) returns (Empty) {}
+    rpc StartSession (Empty) returns (StartSessionResponse) {}
+    rpc UpdateTransitionSpec (UpdateTransitionSpecRequest) returns (Empty) {}
+    rpc GetChunk (Empty) returns (AudioChunkResponse)  {}
+    rpc GetPosition (Empty) returns (Position) {}
+}
+
+message StartSessionResponse {
+    int32 session_id = 1;
+}
+
+message UpdateTransitionSpecRequest {
+    int32 session_id = 1;
+    string initial_genre = 2;
+    repeated Transition transitions = 3;
+    double current_latitude = 4;
+    double current_longitude = 5; 
+    double current_altitude = 6;
+    string next_up = 7;
+}
+
+message Transition {
+    string transitionId = 1; 
+    string transition_to_genre = 2;
+    float estimated_time_to_transition = 3;
+    float estimated_geo_distance_to_transition = 4;
+}
+
+message AudioChunkResponse {
+    int32 first_frame_id = 1;
+    bytes audio_chunk = 2;
+}
+
+message Position {
+    float latitude = 1;
+    float longitude = 2;
+    float altitude = 3; 
+}
+
+message Empty {}
+

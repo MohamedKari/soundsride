@@ -1,0 +1,22 @@
+[MASTER]
+
+extension-pkg-whitelist=cv2
+
+enable=all
+
+disable=trailing-whitespace, 
+        missing-function-docstring, 
+        missing-class-docstring, 
+        trailing-newlines, 
+        missing-module-docstring, 
+        missing-final-newline, 
+        locally-disabled, 
+        suppressed-message, 
+        invalid-name, 
+        too-few-public-methods
+
+ignore-patterns=.*_pb2.py,
+                .*_pb2_grpc.py
+
+[FORMAT]
+max-line-length=150

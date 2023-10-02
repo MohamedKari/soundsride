@@ -1,0 +1,16 @@
+pyaudio==0.2.13
+pydub==0.23.1
+pytest==6.2.1
+fire==0.3.1
+rich==9.6.1
+pytest-datafiles==2.0 
+numpy==1.26.0
+scipy==1.11.2
+grpcio-tools==1.58.0
+pillow==10.0.1
+matplotlib==3.6.0
+torch==1.13.1
+torchaudio==0.13.1
+av==10.0.0
+opencv-python==4.8.0.76
+requests==2.31.0
